@@ -7,12 +7,18 @@ The app simply prints "This is a test" to stdout and exists, but should serve as
 To start, first clone the repo:
 
 ```bash
-git clone
+git clone git@github.com:DarthChungo/cpp-cmake-docker-example.git
 ```
 
-To compile and run, first install and configure docker, and then do:
+Then, to compile and run it use:
 
 ```bash
 docker build -t cpp-cmake-docker-example
 docker run cpp-cmake-docker-example:latest
 ```
+
+License
+=======
+
+This repository is in the public domain.
+Please read the attatched LICENSE.txt file for more information.
